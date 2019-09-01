@@ -4,10 +4,10 @@ metadata:
   name: fortune-env
 spec:
   containers:
-  - image: luksa/fortune:env
+  - image: eqe99/fortune:master
     env:
     - name: INTERVAL
-      value: "30"
+      value: "5"
     name: html-generator
     volumeMounts:
     - name: html
